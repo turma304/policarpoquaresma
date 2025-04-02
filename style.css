@@ -1,0 +1,364 @@
+.logotipo {
+    margin-left: 5%;
+    margin-top: 1%;
+    gap: 65%; /* Espaço entre os itens */
+    display: flex;
+    align-items: center;
+}
+
+.logotipo img {
+    width: 250px; /* Ajuste o tamanho da imagem */
+    height: auto;
+}
+
+
+.links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.img {
+    margin-top: 20px;
+    height: 300px;
+    width: 100%;
+}
+
+.h1ebook {
+    font-size: 20px;
+}
+
+/* Estilização do corpo da página */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #FFFBE2; /* Cor de fundo da página */
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+/* Container principal que agrupa o conteúdo */
+.container {
+    display: flex; /* Usa flexbox para alinhar elementos lado a lado */
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background: #9ad483; /* Cor de fundo do container */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 20px; /* Borda arredondada */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra ao redor do container */
+    margin: 50px auto; /* Margem superior e inferior para espaçamento */
+    width: 35%; /* Largura do container */
+    gap: 60px;
+}
+
+/* Estilização do bloco de conteúdo com texto */
+.content {
+    text-align: justify; /* Alinha o texto à esquerda */
+    max-width: 40%; /* Define a largura máxima do texto */
+}
+
+/* Estilização da imagem do livro */
+.book-cover img {
+    width: 250px; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilização do botão de download */
+.download-btn {
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    border: solid 1px rgb(127, 187, 48);
+    border-radius: 20px;
+    color: blue;
+    background-color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: blue;
+    color: white;
+    transform: scale(1.1);
+}
+
+.autor {
+    text-align: center; /* Centraliza o conteúdo do corpo */
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.container2 {
+    display: flex; /* Usa flexbox para alinhar elementos lado a lado */
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background: #9ad483; /* Cor de fundo do container */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 20px; /* Borda arredondada */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra ao redor do container */
+    margin: 50px auto; /* Margem superior e inferior para espaçamento */
+    width: 35%; /* Largura do container */
+    gap: 60px;
+}
+
+.conteudo {
+    text-align: justify; /* Alinha o texto à esquerda */
+    max-width: 40%; /* Define a largura máxima do texto */
+}
+
+.lima-b img {
+    width: 250px; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 5px; /* Borda levemente arredondada */
+}
+
+.obras {
+    text-align: center; /* Centraliza o conteúdo do corpo */
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.container-obras {
+    display: flex; /* Usa Flexbox */
+    justify-content: center; /* Centraliza as imagens na horizontal */
+    gap: 50px; /* Espaçamento entre as imagens */
+    flex-wrap: wrap; /* Permite que as imagens quebrem linha em telas menores */
+    padding: 20px;
+}
+
+.container-obras img {
+    width: 30%; /* Define largura para ocupar um terço do container */
+    max-width: 250px; /* Define um tamanho máximo */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Deixa as bordas arredondadas */
+}
+
+.item {
+    text-align: center; /* Centraliza o texto abaixo da imagem */
+    width: 30%; /* Define a largura de cada bloco */
+    max-width: 250px; /* Define um tamanho máximo */
+}
+
+/* Estilização das imagens */
+.item img {
+    width: 100%; /* Ajusta a imagem ao container */
+    height: auto;
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Estilização do parágrafo */
+.item p {
+    margin-top: 2px;
+    font-size: 20px;
+    color: #000000;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.curiosidades {
+    text-align: center; /* Centraliza o conteúdo do corpo */
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+
+.botao {
+    margin-top: 10px;
+    display: flex;
+    text-decoration: none;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #9ad483;
+    font-size: 20px;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.3s ease;
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.botao:hover {
+    background-color: rgb(236, 255, 64);
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
+}
+   
+.modal {
+    display: none; /* Escondido por padrão */
+    position: fixed;
+    z-index: 1000; /* Fica acima de outros elementos */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro semi-transparente */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; /* Suaviza a transição */
+}
+
+/* Conteúdo do modal */
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    max-width: 400px;
+    margin: 15% auto;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    transform: scale(0.8);
+    transition: transform 0.3s ease-in-out; /* Efeito de zoom suave */
+}   
+
+/* Quando o modal estiver ativo (aberto) */
+.modal.ativo {
+    display: block;
+    opacity: 1;
+}
+
+.modal.ativo .modal-content {
+    transform: scale(1); /* Aumenta suavemente */
+}
+
+/* Botão de fechar (X) */
+.fechar {
+    color: red;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fechar:hover {
+    color: darkred;
+}
+
+.iema img {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    width: 500px;
+    height: auto;
+}
+
+/* Ajustes para telas menores que 768px (tablets e celulares) */
+@media screen and (max-width: 768px) {
+    .logotipo {
+        align-items: center; /* Centraliza os itens */
+        gap: 30%; /* Reduz o espaçamento */
+    }
+
+    .logotipo img {
+        width: 180px; /* Reduz o tamanho da logo */
+    }
+
+    .container {
+        width: 60%; /* Ocupa mais espaço na tela */
+        gap: 20px; /* Reduz espaço entre os itens */
+    }
+    
+    .content {
+        max-width: 90%; /* Permite que o texto ocupe mais espaço */
+        text-align: center; /* Centraliza o texto */
+        text-align: justify;
+    }
+
+    .container2 {
+        width: 70%; /* Ocupa mais espaço na tela */
+        gap: 60px; /* Reduz espaço entre os itens */
+    }
+
+    .lima-b img {
+        width: 200px;
+    }
+
+    .book-cover img {
+        width: 200px; /* Diminui as imagens */
+    }
+
+    .container-obras {
+        gap: 30px;
+    }
+
+    .container-obras img {
+        width: 80%; /* Faz as imagens ficarem maiores */
+        max-width: 300px;
+    }
+
+    .botao {
+        width: 20%; /* Faz o botão ocupar mais espaço */
+        font-size: 16px; /* Reduz um pouco o tamanho da fonte */
+        padding: 8px 20px;
+    }
+
+    .modal-content {
+        width: 1%; /* Reduz o tamanho do modal para caber na tela */
+        font-size: 16px; /* Ajusta a fonte */
+    }
+
+    .iema img {
+        width: 70%; /* Reduz a largura da imagem */
+        margin-top: 100px;
+    }
+}
+
+/* Ajustes para celulares menores que 480px */
+@media screen and (max-width: 480px) {
+    .logotipo {
+        align-items: center; /* Centraliza os itens */
+        gap: 20%; /* Reduz o espaçamento */
+        flex-direction: column;
+    }
+
+    .logotipo img {
+        width: 180px; /* Reduz o tamanho da logo */
+    }
+
+    .container {
+        width: 85%; /* Ocupa mais espaço na tela */
+        gap: 20px; /* Reduz espaço entre os itens */
+    }
+    
+    .content {
+        max-width: 90%; /* Permite que o texto ocupe mais espaço */
+        text-align: center; /* Centraliza o texto */
+        text-align: justify;
+    }
+
+    .container2 {
+        width: 85%; /* Ocupa mais espaço na tela */
+        gap: 35px; /* Reduz espaço entre os itens */
+    }
+
+    .lima-b img {
+        width: 180px;
+    }
+
+    .book-cover img {
+        width: 200px; /* Diminui as imagens */
+    }
+
+    .container-obras {
+        gap: 15px;
+    }
+
+    .container-obras img {
+        width: 80%; /* Faz as imagens ficarem maiores */
+        max-width: 300px;
+    }
+
+    .botao {
+        width: 25%; /* Faz o botão ocupar mais espaço */
+        font-size: 16px; /* Reduz um pouco o tamanho da fonte */
+    }
+
+    .modal-content {
+        width: 60%; /* Reduz o tamanho do modal para caber na tela */
+        font-size: 16px; /* Ajusta a fonte */
+    }
+
+    .iema img {
+        width: 70%; /* Reduz a largura da imagem */
+        margin-top: 50px;
+    }
+}
