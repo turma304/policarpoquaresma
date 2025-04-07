@@ -199,6 +199,7 @@ h1 {
     cursor: pointer;
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.3s ease;
     justify-content: center; /* Centraliza horizontalmente */
+    
 }
 
 .botao:hover {
@@ -287,9 +288,6 @@ h1 {
         text-align: center; /* Centraliza o texto */
         text-align: justify;
     }
-    .book-section {
-        gap: -25px; /* Espaço entre a imagem e o botão */
-    }
 
     .container2 {
         width: 60%; /* Ocupa mais espaço na tela */
@@ -306,7 +304,7 @@ h1 {
     }
 
     .book-cover img {
-        width: 300px; /* Diminui as imagens */
+        width: 250px; /* Diminui as imagens */
     }
 
     .container-obras {
