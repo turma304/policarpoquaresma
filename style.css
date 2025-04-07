@@ -19,11 +19,12 @@
 
 .img {
     margin-top: 20px;
-    height: 300px;
     width: 100%;
+    height: 20%;
 }
 
 .h1ebook {
+    margin-top: 30px;
     font-size: 20px;
 }
 
@@ -58,18 +59,15 @@ body {
 
 .book-section {
     display: flex;
-    align-items: center;
-    gap: 20px; /* Espaço entre a imagem e o botão */
+    align-items: center;    
     justify-content: center;
     margin-top: 15px;
 }
 
 .book-cover img {
-    width: 220px; /* Ajuste do tamanho da imagem */
+    width: 400px; /* Ajuste do tamanho da imagem */
     height: auto;
 }
-
-
 
 /* Estilização do botão de download */
 .download-btn {
@@ -133,7 +131,7 @@ h1 {
 .conteudo {
     text-align: justify;
     max-width: 80%;
-    margin-top: 10px;
+    margin-top: 1px;
 }
 
 
@@ -146,13 +144,13 @@ h1 {
 .container-obras {
     display: flex; /* Usa Flexbox */
     justify-content: center; /* Centraliza as imagens na horizontal */
-    gap: 50px; /* Espaçamento entre as imagens */
+    gap: 30px; /* Espaçamento entre as imagens */
     flex-wrap: wrap; /* Permite que as imagens quebrem linha em telas menores */
     padding: 20px;
 }
 
 .container-obras img {
-    width: 30%; /* Define largura para ocupar um terço do container */
+    width: 50%; /* Define largura para ocupar um terço do container */
     max-width: 250px; /* Define um tamanho máximo */
     height: auto; /* Mantém a proporção da imagem */
     border-radius: 10px; /* Deixa as bordas arredondadas */
@@ -265,8 +263,8 @@ h1 {
     height: auto;
 }
 
-/* Ajustes para telas menores que 768px (tablets e celulares) */
-@media screen and (max-width: 768px) {
+/* Ajustes para telas menores que 720px  (tablets e celulares) */
+@media screen and (max-width: 720px) {
     .logotipo {
         align-items: center; /* Centraliza os itens */
         gap: 30%; /* Reduz o espaçamento */
@@ -286,10 +284,18 @@ h1 {
         text-align: center; /* Centraliza o texto */
         text-align: justify;
     }
+    .book-section {
+        gap: -25px; /* Espaço entre a imagem e o botão */
+    }
 
     .container2 {
-        width: 70%; /* Ocupa mais espaço na tela */
+        width: 60%; /* Ocupa mais espaço na tela */
         gap: 60px; /* Reduz espaço entre os itens */
+    }
+
+    .conteudo {
+        max-width: 85%;
+        margin-top: -60px;
     }
 
     .lima-b img {
@@ -297,15 +303,15 @@ h1 {
     }
 
     .book-cover img {
-        width: 200px; /* Diminui as imagens */
+        width: 300px; /* Diminui as imagens */
     }
 
     .container-obras {
-        gap: 30px;
+        gap: 10px;
     }
 
     .container-obras img {
-        width: 80%; /* Faz as imagens ficarem maiores */
+        width: 90%; /* Faz as imagens ficarem maiores */
         max-width: 300px;
     }
 
@@ -316,7 +322,7 @@ h1 {
     }
 
     .modal-content {
-        width: 1%; /* Reduz o tamanho do modal para caber na tela */
+        width: 60%; /* Reduz o tamanho do modal para caber na tela */
         font-size: 16px; /* Ajusta a fonte */
     }
 
@@ -358,8 +364,13 @@ h1 {
         width: 180px;
     }
 
+    .conteudo {
+        max-width: 85%;
+        margin-top: -20px;
+    }
+
     .book-cover img {
-        width: 200px; /* Diminui as imagens */
+        width: 250px; /* Diminui as imagens */
     }
 
     .container-obras {
@@ -367,7 +378,7 @@ h1 {
     }
 
     .container-obras img {
-        width: 80%; /* Faz as imagens ficarem maiores */
+        width: 100%; /* Faz as imagens ficarem maiores */
         max-width: 300px;
     }
 
