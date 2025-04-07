@@ -62,6 +62,7 @@ body {
     align-items: center;    
     justify-content: center;
     margin-top: 15px;
+    gap: -1px;
 }
 
 .book-cover img {
@@ -88,6 +89,7 @@ body {
     background-color: blue;
     color: white;
     transform: scale(1.1);
+    
 }
 
 .autor {
@@ -259,7 +261,7 @@ h1 {
     margin-top: 100px;
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
-    width: 500px;
+    width: 750px;
     height: auto;
 }
 
@@ -267,7 +269,7 @@ h1 {
 @media screen and (max-width: 720px) {
     .logotipo {
         align-items: center; /* Centraliza os itens */
-        gap: 30%; /* Reduz o espaçamento */
+        flex-direction: column;
     }
 
     .logotipo img {
@@ -336,7 +338,7 @@ h1 {
 @media screen and (max-width: 480px) {
     .logotipo {
         align-items: center; /* Centraliza os itens */
-        gap: 20%; /* Reduz o espaçamento */
+        gap: 16%; /* Reduz o espaçamento */
         flex-direction: column;
     }
 
@@ -383,7 +385,7 @@ h1 {
     }
 
     .botao {
-        width: 25%; /* Faz o botão ocupar mais espaço */
+        width: 30%; /* Faz o botão ocupar mais espaço */
         font-size: 16px; /* Reduz um pouco o tamanho da fonte */
     }
 
