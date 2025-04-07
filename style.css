@@ -58,7 +58,7 @@ body {
 }
 
 .book-cover img {
-    width: 250px; /* Ajuste do tamanho da imagem */
+    width: 200px; /* Ajuste do tamanho da imagem */
     height: auto;
 }
 
@@ -373,7 +373,7 @@ h1 {
     }
 
     .book-cover img {
-        width: 250px; /* Diminui as imagens */
+        width: 200px; /* Diminui as imagens */
     }
 
     .container-obras {
