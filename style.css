@@ -57,22 +57,23 @@ body {
     flex-direction: column;
 }
 
+.book-cover img {
+    width: 250px; /* Ajuste do tamanho da imagem */
+    height: auto;
+}
+
+/* Estilização do botão de download */
 .book-section {
     display: flex;
     align-items: center;    
     justify-content: center;
     margin-top: 15px;
-    gap: -1px;
+    gap: 10px; /* adiciona um pequeno espaço entre a imagem e o botão */
 }
 
-.book-cover img {
-    width: 400px; /* Ajuste do tamanho da imagem */
-    height: auto;
-}
-
-/* Estilização do botão de download */
 .download-btn {
-    margin-top: 10px;
+    margin-top: 0; /* zera a margem superior */
+    margin-left: 10px; /* aproxima do lado da imagem */
     display: inline-block;
     text-decoration: none;
     border: solid 1px rgb(127, 187, 48);
@@ -85,11 +86,11 @@ body {
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.3s ease;
 }
 
+
 .download-btn:hover {
     background-color: blue;
     color: white;
-    transform: scale(1.1);
-    
+    transform: scale(1.1);   
 }
 
 .autor {
